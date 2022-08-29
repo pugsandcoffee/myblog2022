@@ -1,6 +1,6 @@
 ---
 weight: 3
-title: "CTF writeup - Flatline"
+title: "CTF writeup - Wordpress Blog"
 date: 2021-05-21T22:15:40+08:00
 lastmod: 2022-08-29T17:16:40+08:00
 description: "Another late night CTF on the awesome platform TryHackMe"
@@ -11,18 +11,27 @@ tags: ["TryHackMe", "CTF", "Windows"]
 categories: ["Writeups"]
 
 lightgallery: false
-summary: The tags on this box tells us that it involves Windows, privesc, RCE and enumeration.
+summary: The tags on this box tells us that it involves Linux, Wordpress and CVE exploitation.
 ---
 
-# TryHackMe: Blog
+# TryHackMe: Wordpress Blog
 
-![Untitled](blog/headlogo.png)
+![Untitled](/blog/headlogo.png)
+
+### Description
 
 "Billy Joel made a blog on his home computer and has started working on it.  It's going to be so awesome!
-
 Enumerate this box and find the 2 flags that are hiding on it!  Billy has some weird things going on his laptop.  Can you maneuver around and get what you need?  Or will you fall down the rabbit hole..."
 
 After reading the description of this room we know that its a box running Wordpress.
+
+# Summary
+1. Initial NMAP scan reveals some interesting bits: SMB shares and a WordPress admin panel.
+2. Enumerating users with WPScan.
+3. Password spraying with WPScan xmlrpc gives us access to the admin panel.
+4. Exploiting a CVE in the WordPress upload functionality.
+5. Establishing a meterpreter interactive session.
+6. Finding interesting SUID binaries let's us escalate our privileges and read the user and root flags.
 
 # Scanning & Enumeration
 
