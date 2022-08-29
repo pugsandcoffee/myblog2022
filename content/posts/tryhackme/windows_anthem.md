@@ -1,7 +1,7 @@
 ---
 weight: 3
 title: "CTF writeup - Windows Anthem"
-date: '`r format(Sys.Date(), "%B %d, %Y")`'
+date: "'format(Sys.Date(), "%B %d, %Y")'"
 lastmod: 2022-08-28T22:16:40+08:00
 description: "Another late night CTF on the awesome platform TryHackMe"
 featuredImage: "tryhackmebanner.jpg"
