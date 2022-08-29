@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Pugs, Cybersecurity and CTFs'
 theme = "m10c"
 paginate = 8
-disqusShortname = 'danielkristoffer'
+
 
 
 
@@ -78,5 +78,12 @@ disqusShortname = 'danielkristoffer'
     lightestColor ="#f4f6f6" # Title color and Headings color
     primaryColor ="#000000" # Menu, icons and Post name color
 
-
+# Comment config
+    [params.page.comment]
+      enable = true
+      # Disqus comment config (https://disqus.com/)
+      [params.page.comment.disqus]
+        enable = true
+        # Disqus shortname to use Disqus in posts
+        shortname = "https-pugsandinfosec-com"
 
