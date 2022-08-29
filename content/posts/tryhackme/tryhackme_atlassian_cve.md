@@ -16,7 +16,7 @@ summary: This is a short walkthrough of how to exploit, threat hunt & remediate 
 
 # Atlassian, CVE-2022-26134
 
-![Untitled](atlassian/Untitled.png)
+![Untitled](/atlassian/Untitled.png)
 
 On May the 30th, 2022, an organisation named Volexity identified an un-authenticated RCE vulnerability (scoring 9.8 on NIST) within Atlassian's Confluence Server and Data Center editions.
 
@@ -39,7 +39,7 @@ You can view the NIST entry for CVE-2022-26134 [here.](https://nvd.nist.gov/vuln
 
 # Login portal
 
-![Untitled](atlassian/Untitled%201.png)
+![Untitled](/atlassian/Untitled%201.png)
 
 # Explaining the vulnerability
 
@@ -49,7 +49,7 @@ For example, OGNL is used to bind front-end elements such as text boxes to back-
 
 A web page with questions and a input text field to the right of each question, displaying how values input into a web form can be stored in the back-end using OGNL
 
-![Untitled](atlassian/Untitled%202.png)
+![Untitled](/atlassian/Untitled%202.png)
 
 *Thanks to [Journaldev.com](http://journaldev.com/) for this example of OGNL in use.*
 
@@ -164,7 +164,7 @@ python3.9 cve-2022-26134.py <HTTP://10.10.63.161:8090> COMMAND
 2. Finally, craft a payload to retrieve the flag stored at /flag.txt on the server. What is the flag?
     1. THM{OGNL_VULN}
     
-    ![Untitled](atlassian/Untitled%204.png)
+    ![Untitled](/atlassian/Untitled%204.png)
     
     # Conclusion
     
