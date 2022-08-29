@@ -159,7 +159,7 @@ python3.9 cve-2022-26134.py <HTTP://10.10.63.161:8090> COMMAND
 1. Create a payload to identify what user the application is running as? What is the user?
     1. We can see in the screenshot below that the application is running as the user “confluence”.
     
-    ![Untitled](Atlassian,%20CVE-2022-26134%209008f3fbb3954789ae7cb41c40c26940/Untitled%203.png)
+    ![Untitled](/atlassian/Untitled%203.png)
     
 2. Finally, craft a payload to retrieve the flag stored at /flag.txt on the server. What is the flag?
     1. THM{OGNL_VULN}
