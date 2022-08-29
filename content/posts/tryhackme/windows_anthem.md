@@ -88,7 +88,7 @@ My guess is that Solomon the Admin would have “SG@anthem.com”.
 
 We can log in to the CMS Admin panel with what we know so far.
 
-![Untitled](windows_anthem/Untitled.png)
+![Untitled](/windows_anthem/Untitled.png)
 
 # Flags
 
@@ -104,6 +104,6 @@ For the last flag, we need admin access.
 
 Using the password we found in the c:\backup\restore.txt, we can browse into c:\users\Administrator and look through the desktop.
 
-![Untitled](windows_anthem/Untitled%201.png)
+![Untitled](/windows_anthem/Untitled%201.png)
 
 There it is, the last flag! =)
