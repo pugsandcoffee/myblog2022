@@ -7,7 +7,7 @@ description: "Another late night CTF on the awesome platform TryHackMe"
 featuredImage: "tryhackmebanner.jpg"
 hiddenfeaturedImage: false
 
-tags: ["TryHackMe", "CTF", "Windows"]
+tags: ["TryHackMe", "CTF", "Linux"]
 categories: ["Writeups"]
 
 lightgallery: false

@@ -1,13 +1,13 @@
 ---
 weight: 3
 title: "CTF writeup - Atlassian CVE-2022-26134"
-date: 2022-08-28T22:16:40+08:00
+date: {{ .Date }}
 lastmod: 2022-08-29T14:16:40+08:00
 description: "Another late night CTF on the awesome platform TryHackMe"
 featuredImage: "tryhackmebanner.jpg"
 hiddenfeaturedImage: false
 
-tags: ["TryHackMe", "CTF", "Windows"]
+tags: ["TryHackMe", "CTF", "Linux"]
 categories: ["Writeups"]
 
 lightgallery: false
