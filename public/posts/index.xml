@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pugs, Cybersecurity and CTFs</title>
+    <link>https://pugsandinfosec.com/posts/</link>
+    <description>Recent content in Posts on Pugs, Cybersecurity and CTFs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2022 04:36:29 -0400</lastBuildDate><atom:link href="https://pugsandinfosec.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://pugsandinfosec.com/posts/my-first-post/</link>
+      <pubDate>Mon, 29 Aug 2022 04:36:29 -0400</pubDate>
+      
+      <guid>https://pugsandinfosec.com/posts/my-first-post/</guid>
+      <description>New blog in 2022 I wanted to try out a new blog theme and decided to go for the m10c theme and build my site with Hugo + Netlify + GitHub.
+To-do: Add content and posts, mainly walkthroughs of TryHackMe and Blue Team Labs Online CTFs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+baseURL = 'https://pugsandinfosec.com/'
+languageCode = 'en-us'
+title = 'Pugs, Cybersecurity and CTFs'
+theme = "m10c"
+paginate = 8
+disqusShortname = 'danielkristoffer'
+
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    title = "Tags & Categories"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+    title = "This page is about me"
+   [[menu.main]]
+  	identifier = 'categories'
+  	name = 'Categories'
+  	pre = "<i class='fa fa-heart'></i>"
+  	url = '/categories/'
+  	weight = 4
+  	[menu.main.params]
+    	class = 'highlight-menu-item'
+
+
+[params]
+  author = "Daniel"
+  description = "A personal blog where I write about my pug, projects and interests. Mostly related to Cybersecurity, Penetration Testing and DFIR"
+  menu_item_separator = " - "
+  avatar = "Lotta5.jpg"
+  favicon = " "
+  [[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/pugsandcoffee"
+  [[params.social]]
+	icon = 'linkedin'
+	name = 'My Linkedin'
+	url = 'https://www.linkedin.com/in/danielkristoffer/'
+  [[params.social]]
+	icon = 'twitter'
+	name = 'My Twitter'
+	url = 'https://twitter.com/DanielKristof14'
+
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
+
+  # Red theme
+  [params.style]
+    darkestColor ="#f07c21" # Sidebar color
+    darkColor = "#273746" # Main page color
+    lightColor = "#d6d6d6" # Description color, date color
+    lightestColor ="#f4f6f6" # Title color and Headings color
+    primaryColor ="#000000" # Menu, icons and Post name color
+
+
+
