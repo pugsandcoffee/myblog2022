@@ -1,8 +1,8 @@
 ---
 weight: 3
 title: "CTF writeup - Windows Anthem"
-date: "'format(Sys.Date(), "%B %d, %Y")'"
-lastmod: 2022-08-28T22:16:40+08:00
+date: 2022-08-28T22:16:40+08:00
+lastmod: 2022-08-29T14:16:40+08:00
 description: "Another late night CTF on the awesome platform TryHackMe"
 featuredImage: "tryhackmebanner.jpg"
 hiddenfeaturedImage: false
@@ -12,6 +12,7 @@ categories: ["Writeups"]
 
 lightgallery: false
 summary: The tags on this box tells us that it involves Windows, privesc, RCE and enumeration.
+---
 
 # Windows: Anthem
 
