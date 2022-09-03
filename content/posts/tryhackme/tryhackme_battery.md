@@ -16,16 +16,14 @@ summary: This is a short walkthrough of how to exploit a website with XXE, SQLi 
 
 # TryHackMe CTF - battery
 
-"CTF designed by CTF lover for CTF lovers"
-
 # Scanning & Enumeration
 
 ## NMAP
-
+```bash
 PORT   STATE SERVICE
 22/tcp open  ssh  OpenSSH 6.6.1p1 Ubuntu
 80/tcp open  http Apache httpd 2.4.7 ((Ubuntu))
-
+```
 ## Directory busting
 
 ```bash
