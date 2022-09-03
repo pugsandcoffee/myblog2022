@@ -1,6 +1,6 @@
 ---
 weight: 3
-title: "CTF writeup - TryHackMe - Agent T"
+title: "CTF writeup - TryHackMe"
 date: 2022-09-03
 lastmod: 2022-09-03T19:16:40+08:00
 description: "Saturday night CTF on the awesome platform TryHackMe"
@@ -11,11 +11,11 @@ tags: ["TryHackMe", "CTF", "Linux"]
 categories: ["Writeups"]
 
 lightgallery: false
-summary: This is a short walkthrough of how to exploit, threat hunt & remediate the Atlassian CVE-2022-26134.
+summary: This is a short walkthrough of how to exploit a built-in backdoor in a PHP cli server.
 ---
 # TryHackMe: Agent T
 
-![Untitled](agent_t/Untitled.png)
+{{< figure src="/agent_t/Untitled.png" >}}
 
 # Scanning & Enumeration
 
