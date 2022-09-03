@@ -1,6 +1,6 @@
 ---
 weight: 3
-title: "CTF writeup - TryHackMe - Agent T"
+title: "CTF writeup - TryHackMe - Battery"
 date: 2022-09-02
 lastmod: 2022-09-02T19:16:40+08:00
 description: "Friday night CTF on the awesome platform TryHackMe"
