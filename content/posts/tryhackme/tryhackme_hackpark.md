@@ -1,7 +1,7 @@
 ---
 weight: 3
 title: "TryHackMe CTF: Hackpark"
-date: 2022-10-19T19:42:40+08:00
+date: 2022-10-19T20:13:40+08:00
 description: "This is a writeup of the CTF Hackpark on TryHackMe"
 
 title: CTF writeup - Hackpark
