@@ -4,11 +4,11 @@ title: "TryHackMe CTF: Ultratech"
 date: 2022-10-19T19:42:40+08:00
 description: "This is a writeup of the CTF Ultratech on TryHackMe"
 
-title: CTF Writeup - 2Sapp
+title: CTF writeup - Ultratech
 featuredImage: tryhackmebanner.jpg
 hiddenfeaturedImage: false
 
-tags: ["TryHackMe", "CTF"]
+tags: ["TryHackMe", "CTF", "Linux", "Webapp"]
 categories: ["Writeups"]
 
 lightgallery: true
