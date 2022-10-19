@@ -4,7 +4,7 @@ title: "TryHackMe CTF: Hackpark"
 date: 2022-10-19T19:42:40+08:00
 description: "This is a writeup of the CTF Hackpark on TryHackMe"
 
-title: CTF writeup - Ultratech
+title: CTF writeup - Hackpark
 featuredImage: tryhackmebanner.jpg
 hiddenfeaturedImage: false
 
@@ -16,11 +16,11 @@ summary: This CTF room gives us a tase of some basic penetration testing, enumer
 ---
 
 # TryHackMe CTF: HackPark
-This is a writeup of the CTF Hackpark on TryHackMe. A windows server with IIS and ASP.NET.
+This is a writeup of the CTF Hackpark on TryHackMe. A windows server with IIS and ASP.NET. It includes brute forcing credentials, LFI, Windows system enumeration, exploitation and privilege escalation.
 
 ![Untitled](/hackpark/Untitled.png)
 
-This CTF includes brute forcing credentials, Remote Code Execution and Privilege Escalation on a Windows system.
+
 
 # Summary
 
